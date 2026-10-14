@@ -1,0 +1,14 @@
+name: compare-schema-versions
+description: Compare old and new field-based schema snapshots and return evidence-backed
+  structural changes.
+input_schema:
+  type: object
+  properties:
+    old_schema:
+      type: object
+    new_schema:
+      type: object
+  required:
+  - old_schema
+  - new_schema
+  additionalProperties: false

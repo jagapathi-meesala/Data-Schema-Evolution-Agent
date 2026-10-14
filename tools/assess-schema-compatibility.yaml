@@ -1,0 +1,17 @@
+name: assess-schema-compatibility
+description: Screen a schema diff in backward, forward, or full review mode; this
+  is heuristic, not formal certification.
+input_schema:
+  type: object
+  properties:
+    diff:
+      type: object
+    mode:
+      type: string
+      enum:
+      - backward
+      - forward
+      - full
+  required:
+  - diff
+  additionalProperties: false

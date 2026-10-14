@@ -1,0 +1,12 @@
+name: create-migration-checklist
+description: Generate review tasks for a schema diff without applying migrations.
+input_schema:
+  type: object
+  properties:
+    diff:
+      type: object
+    owner:
+      type: string
+  required:
+  - diff
+  additionalProperties: false

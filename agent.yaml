@@ -1,0 +1,23 @@
+spec_version: "0.1.0"
+name: data-schema-evolution-agent
+version: "1.0.0"
+description: Reviews versioned data schemas for structural changes, compatibility risks, and migration review actions using explicit schema snapshots.
+author: jagapathi-meesala
+license: MIT
+skills:
+  - schema-diff-analysis
+  - compatibility-assessment
+  - migration-planning
+tools:
+  - compare-schema-versions
+  - assess-schema-compatibility
+  - create-migration-checklist
+runtime:
+  max_turns: 5
+  temperature: 0.2
+  timeout: 30
+tags:
+  - data-engineering
+  - schema-evolution
+  - compatibility
+  - data-governance
